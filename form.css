@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+nav{
+    position: sticky;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 10px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+*{
+    margin: 0%;
+}
