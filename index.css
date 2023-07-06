@@ -12,6 +12,41 @@ a{
     margin-left: 10px;
     text-decoration: none;
 }
+img{
+    height: 100px;
+}
+div{
+    margin: 1% 0% ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: rgb(201, 206, 211);
+
+}
+div>div{
+    margin: 1%;
+    width: 45%;
+    display: inline-block;
+    background-color: rgba(156, 234, 211,0.5);
+}
+div~section{
+    
+}
+.two{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.forty{
+    width: 62%;
+    float: left;
+}
+.description{
+    text-align: left;
+    float: right;
+}
 *{
     margin: 0%;
 }
