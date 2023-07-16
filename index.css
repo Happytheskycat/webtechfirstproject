@@ -1,6 +1,4 @@
-h1{
-    text-align: center;
-}
+
 nav{
     position: sticky;
     background-color: rgba(0, 0, 0,0.5);
@@ -38,6 +36,9 @@ img{
     height: 330px;
     justify-content: center;
 }
+#reverse{
+    grid-template-columns: 1fr 1.6fr;
+}
 .three{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -67,6 +68,16 @@ img{
 .description p{
     text-align: center;
     margin-top: 10px;
+}
+.four{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.four :hover{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: yellow;
 }
 *{
     margin: 0%;
