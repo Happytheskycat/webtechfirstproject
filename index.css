@@ -4,48 +4,69 @@ h1{
 nav{
     position: sticky;
     background-color: rgba(0, 0, 0,0.5);
-    padding: 10px 10px;
+    padding: 20px 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a{
     color: white;
-    margin-left: 10px;
+    margin-left: 15px;
+    padding: 5px 20px;
+    border-radius: 19px;
     text-decoration: none;
+    border: 0.5px solid white;
 }
 img{
     height: 100px;
 }
-div{
-    margin: 1% 0% ;
+
+.one{
+    margin: 0% ;
     display: flex;
     flex-wrap: wrap;
-    width: 96%;
+    flex-basis: 50%;
+    width: 100%;
     justify-content: center;
     align-items: center;
-   
-    background-color: rgb(201, 206, 211);
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.5));
+}
 
-}
-div>div{
-    margin: 1%;
-    width: 45%;
-    display: inline-block;
-    background-color: rgba(156, 234, 211,0.5);
-}
-div~section{
-    
-}
 .two{
-    display: flex;
-    flex-wrap: nowrap;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 1px;
+    height: 330px;
+    justify-content: center;
 }
-.forty{
-    width: 62%;
-    float: left;
+.three{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
 }
-.description{
-    text-align: left;
-    float: right;
+.three :hover{
+   margin: 5px;
+   background-color:  rgba(151, 183, 109, 0.25);
+  border-radius: 15px;
+}
+.description :hover{
+    color: papayawhip;
+    background-color: rgba(151, 183, 109, 0.2);
+    border: 1px;
+    border-radius: 10px;
+    padding: 0px 15px 15px 15px;
+    text-align: center;
+}
+.description h1{
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+.description p{
+    text-align: center;
+    margin-top: 10px;
 }
 *{
     margin: 0%;
