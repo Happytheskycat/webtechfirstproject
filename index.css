@@ -1,5 +1,41 @@
 
+.bttn{
+    position: relative; 
+    right: 1px;
+    left: 15vw;
+}
+a:hover{
+    background-color: rgb(131, 131, 57);
+}
+ul{
+    display: flex;
+    
+    list-style-type: none;
+}
+section{
+    background-color: rgba(0, 0, 0,0.5);
+}
+.banner {
+    
+    width: 100vw;
+    text-align: center;
+    background-color:wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.btn {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #333;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+     }
 nav{
+    display: flex;
     position: sticky;
     background-color: rgba(0, 0, 0,0.5);
     padding: 20px 10px;
