@@ -50,41 +50,37 @@ a{
     border: 0.5px solid white;
 }
 img{
-    height: 100px;
+    height:42vh;
+    border-radius: 15px;
 }
 
 .one{
     margin: 0% ;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 50%;
-    width: 100%;
+    /* flex-basis: 50%; */
+    /* width: 100%; */
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.5));
 }
 
 .two{
-    margin: 5px;
     display: grid;
     grid-template-columns: 1.6fr 1fr;
     gap: 1px;
     height: 330px;
+    width: 50%;
     justify-content: center;
 }
-#reverse{
-    grid-template-columns: 1fr 1.6fr;
-}
+
 .three{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
     border: 1px solid black;
     border-radius: 20px;
     padding: 5px;
 }
 .three :hover{
-   margin: 5px;
+   margin: 2px;
    background-color:  rgba(151, 183, 109, 0.25);
   border-radius: 15px;
 }
