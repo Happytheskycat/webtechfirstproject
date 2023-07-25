@@ -5,7 +5,7 @@
     left: 15vw;
 }
 a:hover{
-    background-color: rgb(131, 131, 57);
+    background-color: rgba(151, 183, 109, 0.7);
 }
 ul{
     display: flex;
@@ -25,6 +25,7 @@ section{
     }
 
 .btn {
+    align-items: center;
     display: inline-block;
     padding: 8px 18px;
     background-color: #333;
@@ -34,6 +35,16 @@ section{
     text-decoration: none;
     border-radius: 5px;
      }
+.btn :hover{
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #333;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
 nav{
     display: flex;
     position: sticky;
@@ -67,7 +78,7 @@ img{
 
 .two{
     display: grid;
-    grid-template-columns: 1.6fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1px;
     height: 330px;
     width: 50%;
@@ -81,12 +92,11 @@ img{
 }
 .three :hover{
    margin: 2px;
-   background-color:  rgba(151, 183, 109, 0.25);
+   /* background-color:  rgba(151, 183, 109, 0.25); */
   border-radius: 15px;
 }
 .description :hover{
-    color: papayawhip;
-    background-color: rgba(151, 183, 109, 0.2);
+    color: red;
     border: 1px;
     border-radius: 10px;
     padding: 0px 15px 15px 15px;
