@@ -9,7 +9,6 @@ a:hover{
 }
 ul{
     display: flex;
-    
     list-style-type: none;
 }
 section{
@@ -48,78 +47,112 @@ section{
 nav{
     display: flex;
     position: sticky;
-    background-color: rgba(0, 0, 0,0.5);
+    background-color: rgba(0, 219, 106, 0.7);
     padding: 20px 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a{
-    color: white;
+    color: rgb(0, 0, 0);
     margin-left: 15px;
     padding: 5px 20px;
     border-radius: 19px;
     text-decoration: none;
-    border: 0.5px solid white;
+    border: 1px solid rgb(255, 196, 0);
 }
 img{
-    height:42vh;
+    height:48vh;
     border-radius: 15px;
 }
 
 .one{
-    margin: 0% ;
+    /* margin-left: 10px; */
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
+    height: 150vh;
     /* flex-basis: 50%; */
     /* width: 100%; */
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(255, 255, 255, 0.5));
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(255, 255, 255, 0.5));
 }
 
 .two{
+    border: 1px solid black;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1px;
+    gap: 5px;
     height: 330px;
-    width: 50%;
-    justify-content: center;
+    width: 45%;
+    justify-content: space-between;
 }
 
 .three{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
 }
-.three :hover{
-   margin: 2px;
-   /* background-color:  rgba(151, 183, 109, 0.25); */
-  border-radius: 15px;
-}
-.description :hover{
-    color: red;
-    border: 1px;
-    border-radius: 10px;
-    padding: 0px 15px 15px 15px;
+
+.description{
     text-align: center;
 }
-.description h1{
-    text-align: center;
-    position: relative;
-    margin-top: 10px;
+h1{
+    margin: 15px;
 }
-.description p{
-    text-align: center;
-    margin-top: 10px;
+p{
+    margin: 20px;
 }
 .four{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
+    justify-content: center;
+    text-align: center;
+    background-color:  rgba(151, 183, 109, 0.25);
 }
 .four :hover{
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* background-color: yellow; */
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.author{
+    /* padding-right: 5px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: yellow;
+    gap: 2px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 360px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.author :hover{
+    width: 140px;
+    transition: 0.2s;
+}
+.hidden{
+    overflow: hidden;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    justify-content: center;
+    align-items: center;
+}
+.zoom{
+    width: 110px;
+    height: 200px;
+    gap: 5px;
+}
+.zoom :hover{
+    width: 150px;
 }
 *{
     margin: 0%;
